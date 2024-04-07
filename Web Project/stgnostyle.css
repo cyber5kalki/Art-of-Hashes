@@ -1,0 +1,110 @@
+/* Resetting default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the steganography container */
+.steganography-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Styling for the steganography section */
+.steganography-section {
+    flex: 1;
+    margin: 10px;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Centering text in the header */
+.steganography-section h2 {
+    text-align: center;
+}
+
+/* Styling for form elements */
+.form-group {
+    margin-bottom: 10px;
+    
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styling for buttons */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Styling for Encode and Decode buttons */
+.encode, .decode {
+    color: #fff;
+}
+
+/* Styling for error messages */
+.error {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Styling for binary representation */
+.binary {
+    display: none;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Styling for canvas */
+canvas {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Styling for hidden message */
+.binary-decode {
+    display: none;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Styling for the glyphicon */
+.glyphicon {
+    margin-left: 5px;
+}
+
+/* Styling for breaking words */
+.word-wrap {
+    word-wrap: break-word;
+}
+
+/* Keyframe animation for fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.name{
+    text-align: center;
+    animation: fadeIn 1s ease-out; /* Apply animation */
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+#pen{
+    position:relative;
+
+    
+}
