@@ -6,7 +6,6 @@ This repository contains the source code for a web application that provides fun
 **Features:**
 - **Hashing:** Supports popular hashing algorithms such as MD5, SHA-1, SHA-256, etc. Users can input text or upload files for hashing and verify the integrity of files by comparing hash values.
 - **Steganography:** Implements various steganographic techniques like LSB (Least Significant Bit), DCT (Discrete Cosine Transform), etc. Users can hide text or files within images and extract hidden data from steganographic images.
-- **User Authentication:** Implements user authentication and authorization mechanisms for secure access to the application's features.
 - **Responsive UI:** Designed with a responsive user interface for accessibility across different devices and screen sizes.
 
 **Technologies Used:**
