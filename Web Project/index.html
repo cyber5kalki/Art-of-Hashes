@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="head">
+        <h1>The Art of Secrecy</h1>
+        <p>Hashes</p>
+    </div>
+    <div class="glitch-border"></div>
+    <div class="container">
+        <div class="hashType left">
+            <h3>Encrypt</h3>
+            <label for="textInputHash">Enter Text:</label>
+            <input type="text" id="textInputHash" name="text_to_encrypt" required><br><br>
+            <label for="hashType">Select Hashing Algorithm:</label>
+            <select id="hashType" name="algorithm">
+                <option value="md5">MD5</option>
+                <option value="sha256">SHA 256</option>
+                <option value="sha512">SHA 512</option>            
+            </select><br><br>
+            <button id="generateButton">Encode</button>
+            <h2 id = "result"></h2>
+        </div>
+        
+        <div class="hashType right">
+            <h3>Decrypt</h3>
+            <label for="textInputHash2">Enter Text:</label>
+            <input type="text" id="textInputHash2" name="text_to_decrypt" required><br><br>
+            <label for="hashType2">Select Hashing Algorithm:</label>
+            <select id="hashType2" name="algorithm">
+                <option value="md5">MD5</option>
+                <option value="sha256">SHA 256</option>
+                <option value="sha512">SHA 512</option>            
+            </select><br><br>
+            <button id="generateButton2">Decode</button>
+            <h2 id = "result2"></h2>
+        </div>
+               
+    </div>
+    <div class="glitch-border"></div>
+
+    <!--Stegnography-->
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+    <p>Created by Mr.<a href="https://github.com/cyber5kalki">Bhuvan Subramanyam</a></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.9.0/sha512.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
