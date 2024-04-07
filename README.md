@@ -12,7 +12,7 @@ This repository contains the source code for a web application that provides fun
 - **Frontend:** HTML, CSS, JavaScript
 
 **Setup Instructions:**
-1. Clone the repository to your local machine using `git clone https://github.com/cyber5kalki/webpro`.
+1. Clone the repository to your local machine using `git clone https://github.com/cyber5kalki/Art-of-Hashes`.
 2. Navigate to the project directory.
 **Contributing:**
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request. Make sure to follow the contribution guidelines outlined in the repository.
